@@ -44,7 +44,7 @@ admin.site.register(football_players,football_playersAdmin)
 
 
 ## OUTPUT
-![Alt text](<Screenshot 2023-10-18 090657.png>)
+![Screenshot 2023-10-18 090657](https://github.com/Gokkul-M/ORM/assets/144870543/a27f7c29-f03a-41c8-b438-2fce89185803)
 
 
 ## RESULT
