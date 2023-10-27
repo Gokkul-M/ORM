@@ -2,25 +2,15 @@
 ## Date: 18/10/2023
 ## AIM
 To develop a Django application to store and retrieve data from a Football Players database using Object Relational Mapping(ORM).
-
-## Entity Relationship Diagram
-
-Include your ER diagram here
-
-## DESIGN STEPS
-
+## ALGORITHMS :
 ### STEP 1:
 Clone the problem from GitHub
-
 ### STEP 2:
 Create a new app in Django project
-
 ### STEP 3:
 Enter the code for admin.py and models.py
-
 ### STEP 4:
 Execute Django admin and create 10 Football players
-
 ## PROGRAM
 ```
 models.py
@@ -39,13 +29,8 @@ admin.py
 from django.contrib import admin
 from .models import football_players,football_playersAdmin
 admin.site.register(football_players,football_playersAdmin)
-
 ```
-
-
 ## OUTPUT
-![Screenshot 2023-10-18 090657](https://github.com/Gokkul-M/ORM/assets/144870543/a27f7c29-f03a-41c8-b438-2fce89185803)
-
-
+![WhatsApp Image 2023-10-27 at 22 03 30](https://github.com/Gokkul-M/ORM/assets/144870543/250fff5b-1a14-49ff-b6fa-03f5d1954eb3)
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
