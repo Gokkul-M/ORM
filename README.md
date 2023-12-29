@@ -17,14 +17,13 @@ models.py
 from django.db import models
 from django.contrib import admin
 class football_players (models.Model):
-    playersid=models.CharField(max_length=20)
-    players_name=models.CharField(max_length=100)
-    players_position=models.CharField(max_length=100)
-    players_age=models.IntegerField()
-    players_jersey_no=models.IntegerField()
-    players_email=models.EmailField()
+    NAME=models.CharField(max_length=20)
+    AGE=models.IntegerField(max_length=2)
+    COUNTRY=models.CharField(max_length=20)
+    HEIGHT=models.IntegerField(max_length=3)
+    EMAIL=models.EmailField()
 class football_playersAdmin (admin.ModelAdmin):
-    list_display=('playersid','players_name','players_position','players_age','players_jersey_no','players_email')
+    list_display=('NAME','AGE','COUNTRY','HEIGHT','EMAIL')
 admin.py
 from django.contrib import admin
 from .models import football_players,football_playersAdmin
